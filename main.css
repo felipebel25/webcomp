@@ -22,22 +22,47 @@ main{
 }
 @media (max-width:1050px){
     main{
-        background:blue;    
+        
     
     }
     
     my-element{
-        /* --section-width:80vw;
-        --section-height:40vh;
-        border: 1px solid red;
-        --img-width: 150%;
-        --img-height:90%;
-        --right-nike:5.5rem;
-        --bottom-nike:0;
-        --font-size-h1: 10vw;
-        --font-size-nike: 1.rem; */
+        --section-width: 40rem;
+        --section-height:26rem;
+       --img-width:150%;
+       --img-height:90%;
+       --img-right:8rem;
+       --img-bottom: 7rem;
+       --font-size-nike: 4rem;
+       --bottom-nike: 2rem;
+       --font-textos-h1:1.6rem;
+       --font-textos-h3:1rem;
+       --font-textos-p:0.7rem;
     }
-     my-element img{
-       
+     
+}
+@media (max-width:676px){
+    main{
+      
+    
     }
+    
+    my-element{
+        --section-width: 17rem;
+        --section-height:15rem;
+       --img-width:150%;
+       --img-height:90%;
+       --img-right:3rem;
+       --img-bottom: 2rem;
+       --font-size-nike: 1.4rem;
+       --bottom-nike: 0rem;
+       --font-textos-h1:0.7rem;
+       --padding-left-h1:0rem;
+       --font-textos-h3:0.4rem;
+       --font-textos-p:0.2rem;
+       --padding-left-p: 1rem;
+       --button-width:4rem;
+       --button-height:1.1rem;
+    }
+     
 }
