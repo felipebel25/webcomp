@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    font-family: Helvetica;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : #070c24;
+  
+    flex-direction: column;
+
+   
+}
+
+.card{
+    border: 1px solid red;
+}
+@media (max-width:1050px){
+    main{
+        background:blue;    
+    
+    }
+    
+    my-element{
+        /* --section-width:80vw;
+        --section-height:40vh;
+        border: 1px solid red;
+        --img-width: 150%;
+        --img-height:90%;
+        --right-nike:5.5rem;
+        --bottom-nike:0;
+        --font-size-h1: 10vw;
+        --font-size-nike: 1.rem; */
+    }
+     my-element img{
+       
+    }
+}
