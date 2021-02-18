@@ -3,24 +3,35 @@ class myElement extends HTMLElement {
         super()
         this.attachShadow({ mode: "open" })
         this.img = this.getAttribute('img')
+        this.nike = this.getAttribute('nike')
+        this.title = this.getAttribute('title')
+        this.subtitle = this.getAttribute('subtitle')
+        this.texto = this.getAttribute('texto');
+        this.price = this.getAttribute('price')
+        this.buton = this.getAttribute('buton')
+
+
     }
     getTemplate() {
         const template = document.createElement("template");
         template.innerHTML = `
         <section class="card">
         <div class="imagen">      
-          <h1 class="nike"> <slot name="NIKE"></slot></h3>  
+          <h1 class="nike"> ${this.nike}</h3>  
+
+
          <img src="${this.img}">
+
          </div>
      
             <div class="textos">
-                <h1><slot name="title"></slot></h1>
-                <h3><slot name="subtitle"></slot></h3>
-                <p><slot name="texto"></slot><p>
+                <h1>${this.title}</h1>
+                <h3>${this.subtitle}</h3>
+                <p>${this.texto}<p>
             
                 <div class="button">
-                    <h1><slot name="price"></slot></h1>
-                    <button><slot name="buton"></slot></button>
+                    <h1>${this.price}</h1>
+                    <button>${this.buton}</button>
                 </div>
             
             </div>
@@ -38,8 +49,7 @@ class myElement extends HTMLElement {
         return `
             <style>
                 :host{
-                    --primary-color: #5a6cb2;
-                    
+                    --primary-color: #5a6cb2;                    
                     --font-size: 1.7rem;
                     --section-width: 60rem;
                     --section-height:36rem;
