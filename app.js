@@ -78,7 +78,7 @@ class myElement extends HTMLElement {
                 width:var(--section-width);
                 height: var(--section-height);
                 padding:var(--padding);
-                margin-bottom: 10rem;
+                margin-bottom: 18rem;
               
                 
             }

@@ -66,7 +66,7 @@ body{
     my-element{
         --display:flex;
         --flex-direction:column; 
-        --section-width: 37rem;
+        --section-width: 30rem;
         --section-height:36rem;
         --imagen-width:100%;
         --imagen-height:50% ;
@@ -83,7 +83,7 @@ body{
        --padding-left-p: 3.4rem;
        --button-width:4rem;
        --button-height:2rem;
-       --padding:2rem;
+       --padding:1rem;
        --transform: 0;
     }
      
