@@ -1,68 +1,90 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 html{
     font-family: Helvetica;
+    font-size: 62.5%;
 }
-main{
+body{
+    background-color:#2d3a6d;
+}
+/* main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color : #070c24;
-  
-    flex-direction: column;
-
+    width:99%;
    
-}
+} */
 
-.card{
-    border: 1px solid red;
+@media(max-width:2000px){
+    my-element{
+        --section-width: 50rem;
+        --section-height:35rem;
+      
+       --img-width:150%;
+       --img-height:90%;
+       --img-right:10rem;
+       --img-bottom: 10rem;
+       --font-size-nike: 6rem;
+       --bottom-nike: 2rem;
+       --font-textos-h1:2rem;
+       --font-textos-h3:1rem;
+       --font-textos-p:0.9rem;
+    }
 }
-@media (max-width:1050px){
+@media(max-width:1050px){
+
     main{
-        
-    
+        background-color: blue;
     }
     
     my-element{
-        --section-width: 40rem;
-        --section-height:26rem;
+        --section-width: 55rem;
+        --section-height:34rem;
+      
        --img-width:150%;
        --img-height:90%;
-       --img-right:8rem;
+       --img-right:10rem;
        --img-bottom: 7rem;
        --font-size-nike: 4rem;
        --bottom-nike: 2rem;
        --font-textos-h1:1.6rem;
        --font-textos-h3:1rem;
-       --font-textos-p:0.7rem;
+       --font-textos-p:1.1rem;
+       --padding:10rem;
     }
      
 }
-@media (max-width:676px){
-    main{
-      
+@media (max-width:676px) {
+
+
     
-    }
     
     my-element{
-        --section-width: 17rem;
-        --section-height:15rem;
-       --img-width:150%;
-       --img-height:90%;
-       --img-right:3rem;
-       --img-bottom: 2rem;
-       --font-size-nike: 1.4rem;
-       --bottom-nike: 0rem;
-       --font-textos-h1:0.7rem;
+        --display:flex;
+        --flex-direction:column; 
+        --section-width: 37rem;
+        --section-height:36rem;
+        --imagen-width:100%;
+        --imagen-height:50% ;
+       --img-width:100%;
+       --img-height:100%;
+        --img-right:0rem;
+       --img-bottom: 8rem;
+       --font-size-nike: 4rem;
+       --bottom-nike: 2rem;
+       --font-textos-h1:2rem;
        --padding-left-h1:0rem;
-       --font-textos-h3:0.4rem;
-       --font-textos-p:0.2rem;
-       --padding-left-p: 1rem;
+       --font-textos-h3:1.4rem;
+       --font-textos-p:1.1rem;
+       --padding-left-p: 3.4rem;
        --button-width:4rem;
-       --button-height:1.1rem;
+       --button-height:2rem;
+       --padding:2rem;
+       --transform: 0;
     }
      
 }
