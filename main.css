@@ -21,28 +21,29 @@ body{
 
 @media(max-width:2000px){
     my-element{
-        --section-width: 50rem;
-        --section-height:35rem;
+        --section-width: 80rem;
+        --section-height:45rem;
       
        --img-width:150%;
        --img-height:90%;
-       --img-right:10rem;
+       --img-right:14rem;
        --img-bottom: 10rem;
        --font-size-nike: 6rem;
        --bottom-nike: 2rem;
-       --font-textos-h1:2rem;
-       --font-textos-h3:1rem;
-       --font-textos-p:0.9rem;
+       --font-textos-h1:4rem;
+       --font-textos-h3:2rem;
+       --font-textos-p:1.4rem;
     }
 }
 @media(max-width:1050px){
 
     main{
-        background-color: blue;
+        
+        width: 90%;
     }
     
     my-element{
-        --section-width: 55rem;
+        --section-width: 65rem;
         --section-height:34rem;
       
        --img-width:150%;
@@ -60,17 +61,15 @@ body{
 }
 @media (max-width:676px) {
 
-
-    
-    
+  
     my-element{
         --display:flex;
-        --flex-direction:column; 
+        --flex-direction: column; 
         --section-width: 30rem;
         --section-height:36rem;
         --imagen-width:100%;
         --imagen-height:50% ;
-       --img-width:100%;
+       --img-width:90%;
        --img-height:100%;
         --img-right:0rem;
        --img-bottom: 8rem;
@@ -83,7 +82,7 @@ body{
        --padding-left-p: 3.4rem;
        --button-width:4rem;
        --button-height:2rem;
-       --padding:1rem;
+       --padding:0rem;
        --transform: 0;
     }
      

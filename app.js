@@ -79,7 +79,9 @@ class myElement extends HTMLElement {
                 height: var(--section-height);
                 padding:var(--padding);
                 margin-bottom: 18rem;
-              
+                padding-left: 1.3rem;
+            
+        
                 
             }
             .nike{
@@ -95,6 +97,7 @@ class myElement extends HTMLElement {
                 padding: 1.3rem;
                grid-column: 2;
                grid-row: 1;
+           
         
                
             
@@ -102,7 +105,7 @@ class myElement extends HTMLElement {
            .textos h1{
                padding-left: var(--padding-left-h1);
                font-size: var(--font-textos-h1);
-          
+            
               
            }
            .textos h3{
@@ -110,11 +113,13 @@ class myElement extends HTMLElement {
             padding-left: var(--padding-left-h1);
             border: 4rem;
             color:gray;
+           
            }
            .textos p {
             padding-left: var(--padding-left-p);
            
             font-size: var(--font-textos-p);
+            
             
             }
            
@@ -133,6 +138,7 @@ class myElement extends HTMLElement {
                 position: relative;
                 right:var(--img-right);
                 bottom: var(--img-bottom);
+               
             }
             .button{
                 
@@ -140,7 +146,6 @@ class myElement extends HTMLElement {
                 justify-content:space-around;
                 align-items:center;
        
-             
                 
             }
             .button h1{
@@ -148,12 +153,14 @@ class myElement extends HTMLElement {
                 display:flex;
                 justify-content:flex-start;
                 width:60%;
+                
             }
             .button button{
                 width:var(--button-width);
                 height: var(--button-height);
                 background: var(--primary-color);
                 border-radius:0.7rem;
+            
             }
 
             </style>
